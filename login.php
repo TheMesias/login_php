@@ -51,7 +51,7 @@
 
             <div class="text-center">
                <a class="font-italic isai5" href="">Olvidé mi contraseña</a>
-               <a class="font-italic isai5" href="">Registrarse</a>
+               <a class="font-italic isai5" href="./registrar.php">Registrarse</a>
             </div>
             <input name="btningresar" class="btn" type="submit" value="INICIAR SESION">
          </form>

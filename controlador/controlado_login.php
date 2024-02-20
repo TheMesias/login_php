@@ -3,7 +3,7 @@
     if(!empty($_POST["btningresar"])){
         if(!empty($_POST["usuario"]) && !empty($_POST["password"])){
             $usuario = $_POST["usuario"];
-            $password = $_POST["password"];
+            $password = md5($_POST["password"]);
 
             $sql=$conexion->query("SELECT * FROM usuario WHERE usuario='$usuario' AND clave='$password'");
 
