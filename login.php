@@ -1,3 +1,7 @@
+<?php
+   include("modelo/conexion.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,15 +19,14 @@
 </head>
 
 <body>
-   <img class="wave" src="img/wave.png">
+   
    <div class="container">
-      <div class="img">
-         <img src="img/bg.svg">
-      </div>
+      
       <div class="login-content">
          <form method="post" action="">
             <img src="img/avatar.svg">
             <h2 class="title">BIENVENIDO</h2>
+            <?php include("controlador/controlado_login.php"); ?>
             <div class="input-div one">
                <div class="i">
                   <i class="fas fa-user"></i>

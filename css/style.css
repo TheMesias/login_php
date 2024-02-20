@@ -20,19 +20,15 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap :7rem;
     padding: 0 2rem;
+	text-align: center;
 }
 
-.img{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
+
 
 .login-content{
+	width: 100%;
+	text-align: center;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
